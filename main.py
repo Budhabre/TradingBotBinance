@@ -5,10 +5,10 @@ from threading import Thread
 from dotenv import load_dotenv
 import os
 
-# Зареждане на стойностите от .env файла
+
 load_dotenv()
 
-# Вземане на API ключовете и Telegram токена от променливите в средата на изпълнение
+
 binance_api_key = os.getenv('BINANCE_API_KEY')
 binance_secret_key = os.getenv('BINANCE_SECRET_KEY')
 telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
